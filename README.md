@@ -1,111 +1,69 @@
-Pirate Intelligent Agent – Reinforcement Learning
-Overview
+Pirate Intelligent Agent
+Reinforcement Learning Pathfinding Project
+Project Overview
 
-This project implements an intelligent pirate agent using reinforcement learning. The goal of the agent is to navigate a maze-based environment and locate the treasure before the player. The agent improves over time through Q-learning by interacting with the environment and learning from rewards and penalties.
+This project implements an intelligent pirate agent using reinforcement learning. The objective was to design an autonomous agent capable of navigating a maze-based environment and locating a treasure through experience-driven learning.
 
-This project demonstrates practical application of artificial intelligence concepts including decision-making, pathfinding, and experience-based learning.
+Using Q-learning, the agent interacts with the environment over multiple training episodes, receives rewards or penalties based on its actions, and gradually improves its decision-making strategy. Over time, the pirate transitions from random exploration to consistently selecting optimal paths toward the treasure.
 
-Project Objectives
+This project demonstrates applied artificial intelligence concepts within a structured game environment and highlights how theoretical reinforcement learning principles translate into practical implementation.
 
-Implement a Q-learning algorithm to train an autonomous agent
+Development Summary
 
-Balance exploration and exploitation strategies
+The provided starter code included the maze environment, state management, reward structure, and visualization components. The environment handled movement rules, win conditions, and penalties.
 
-Train the agent over multiple episodes to achieve convergence
+My primary responsibility was implementing the reinforcement learning logic that allowed the agent to learn effectively. I designed and developed the Q-training function, implemented an epsilon-greedy exploration strategy, applied the Bellman equation for Q-value updates, and structured the training loop to monitor convergence and performance.
 
-Evaluate performance through reward tracking and success rate
+Through iterative testing and hyperparameter tuning, I refined the agent’s learning behavior until it demonstrated stable and reliable pathfinding performance.
 
-Starter Code vs. My Contributions
-Provided Code
+Technical Concepts Applied
 
-Maze environment and grid structure
+This project integrates core artificial intelligence and computer science principles, including:
 
-State representation and movement rules
+  Reinforcement Learning
 
-Reward system and win/loss conditions
+  Q-Learning Algorithm
 
-Visualization functions
+  Markov Decision Processes
 
-Partial training framework
+  Exploration vs Exploitation Tradeoffs
 
-Code I Implemented
+  Reward-Based Optimization
 
-Q-training function logic
+  Autonomous Pathfinding
 
-Exploration strategy (epsilon-greedy)
+The implementation required analytical thinking, algorithm design, debugging, and performance evaluation, all of which are foundational skills in computer science.
 
-Q-table updates using the Bellman equation
+Computer Science Perspective
 
-Training loop and convergence behavior
+Computer scientists design systems that solve complex problems efficiently and intelligently. This project reflects that role by transforming a theoretical learning model into a functioning autonomous system.
 
-Performance monitoring and evaluation
+Rather than hard-coding a path, the agent learns from experience. This mirrors how real-world AI systems operate in domains such as robotics, autonomous navigation, and game AI. The process reinforced the importance of structured problem decomposition, algorithm selection, testing, and refinement.
 
-Key Concepts Applied
+Ethical Responsibility
 
-Reinforcement Learning
+Even in a simulated environment, designing intelligent systems carries responsibility. AI developers must ensure systems behave predictably, operate reliably, and align with intended goals.
 
-Q-Learning Algorithm
-
-Markov Decision Processes
-
-Exploration vs Exploitation
-
-Reward-Based Optimization
-
-Autonomous Pathfinding
-
-What This Project Demonstrates About Computer Science
-
-Computer scientists design algorithms and systems that solve complex problems efficiently. In this project, I applied computational thinking to design a learning system that improves through experience.
-
-This reflects how AI systems are built in real-world applications such as robotics, game development, autonomous systems, and decision-support tools.
-
-My Problem-Solving Approach
-
-I approached this project by:
-
-Understanding the environment and constraints
-
-Identifying reinforcement learning as the correct solution strategy
-
-Implementing Q-learning incrementally
-
-Testing and tuning hyperparameters
-
-Iterating until stable learning behavior was achieved
-
-This structured, iterative approach mirrors how production AI systems are developed.
-
-Ethical Responsibilities
-
-As a computer scientist, I am responsible for building systems that are reliable, safe, and aligned with organizational goals. In AI systems, this includes:
-
-Ensuring predictable behavior
-
-Avoiding unintended harmful outcomes
-
-Designing transparent learning mechanisms
-
-Validating performance before deployment
-
-Even in a simulated game environment, these principles remain important.
+This project reinforced the importance of transparency in learning mechanisms, careful parameter tuning, and validating system behavior before considering deployment. These principles scale directly to real-world AI systems where reliability and safety are critical.
 
 Technologies Used
 
-Python
+  Python
 
-NumPy
+  NumPy
 
-Jupyter Notebook
+  Jupyter Notebook
 
-Reinforcement Learning (Q-learning)
+  Reinforcement Learning (Q-learning)
 
-Repository Contents
+  Repository Contents
 
-Pirate_Intelligent_Agent.ipynb – Full implementation and training process
+Pirate_Intelligent_Agent.ipynb – Full implementation of the Q-learning agent and training process
 
-README.md – Project overview and reflection
+README.md – Project documentation and reflection
 
 Portfolio Reflection
 
-This project strengthened my understanding of reinforcement learning and autonomous decision systems. It bridges theoretical AI concepts with hands-on implementation, and represents a key milestone in my development as a computer science student.
+This project represents a significant milestone in my development as a computer science student. It strengthened my understanding of reinforcement learning and demonstrated how intelligent agents learn through interaction rather than explicit programming.
+
+By building and refining this agent, I gained deeper insight into decision-making systems, algorithm optimization, and AI behavior modeling. This artifact showcases my ability to move from theory to implementation and apply artificial intelligence concepts to solve practical problems.
